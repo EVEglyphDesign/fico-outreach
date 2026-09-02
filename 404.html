@@ -4,14 +4,16 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>FICO Outreach — Clickable Index</title>
+<title>FICO Outreach — Datasphere Blueprint</title>
 <style>
   :root {
     --cream: #faf6ee;
     --ink: #1b1b1b;
     --muted: #5a5a5a;
     --orange: #d97706;
+    --orange-dark: #b45309;
     --rule: #e6dfd0;
+    --card: #fffaf0;
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; background: var(--cream); color: var(--ink); }
@@ -21,7 +23,7 @@
     line-height: 1.55;
     -webkit-font-smoothing: antialiased;
   }
-  main { max-width: 720px; margin: 0 auto; padding: 32px 22px 80px; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 22px 80px; }
   h1 {
     font-family: 'Fraunces', Georgia, serif;
     font-weight: 600;
@@ -33,14 +35,13 @@
   h2 {
     font-family: 'Fraunces', Georgia, serif;
     font-weight: 600;
-    font-size: 20px;
     margin: 36px 0 12px;
     color: var(--orange);
-    letter-spacing: 0.01em;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 13px;
   }
-  .sub { color: var(--muted); font-size: 15px; margin: 0 0 18px; }
+  .sub { color: var(--muted); font-size: 15px; margin: 0 0 8px; }
   ul { list-style: none; padding: 0; margin: 0; }
   li {
     padding: 14px 0;
@@ -53,12 +54,62 @@
     color: var(--orange);
     text-decoration: none;
     font-weight: 500;
-    word-break: break-all;
+    word-break: break-word;
     display: inline-block;
-    padding: 8px 0;
+    padding: 6px 0;
     min-height: 44px;
   }
-  a:hover, a:focus { text-decoration: underline; }
+  a:hover, a:focus { text-decoration: underline; color: var(--orange-dark); }
+  .primary-card {
+    background: var(--card);
+    border: 2px solid var(--orange);
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px 0 12px;
+  }
+  .primary-card .badge {
+    display: inline-block;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #fff;
+    background: var(--orange);
+    padding: 3px 10px;
+    border-radius: 3px;
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+  .primary-card .title {
+    font-family: 'Fraunces', Georgia, serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.25;
+    margin-bottom: 6px;
+  }
+  .primary-card .doc-id {
+    font-size: 12px;
+    color: var(--muted);
+    font-family: 'Courier New', monospace;
+    margin-bottom: 12px;
+  }
+  .primary-card .desc {
+    color: var(--muted);
+    font-size: 14px;
+    margin-bottom: 14px;
+    line-height: 1.5;
+  }
+  .primary-card a.download {
+    display: inline-block;
+    background: var(--orange);
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 15px;
+    min-height: 44px;
+  }
+  .primary-card a.download:hover { background: var(--orange-dark); text-decoration: none; }
   .tag {
     display: inline-block;
     font-size: 11px;
@@ -78,14 +129,70 @@
     font-size: 13px;
     color: var(--muted);
   }
+  .lede {
+    background: #fff;
+    border-left: 3px solid var(--orange);
+    padding: 14px 16px;
+    margin: 20px 0;
+    font-size: 15px;
+    color: var(--ink);
+    border-radius: 0 4px 4px 0;
+  }
 </style>
 </head>
 <body>
 <main>
-  <h1>FICO Outreach</h1>
-  <p class="sub">Clickable LinkedIn index for Datasphere blueprint outreach — reconstitute-history / margin-analysis retrofit.</p>
+  <h1>Datasphere History Reconstitution</h1>
+  <p class="sub">EVEglyphDesign · sovereign reference model for reconstituting SAP profitability history when margin analysis was never activated in the Universal Journal.</p>
 
-  <h2>Top targets</h2>
+  <div class="lede">
+    A prior systems integrator migrated ECC → S/4 without activating margin analysis in ACDOCA. SAP guidance forbids retroactive population. This blueprint reconstitutes the historical profitability record in Datasphere against the underlying journal-line evidence — a portable, semantic-layer derivation rather than a locked-in re-platform.
+  </div>
+
+  <h2>The blueprint</h2>
+
+  <div class="primary-card">
+    <div class="badge">EGD-EPQ-BLU-001</div>
+    <div class="title">Datasphere History Reconstitution Blueprint</div>
+    <div class="doc-id">EVEglyphDesign_Datasphere_History_Reconstitution_Blueprint_EGD-EPQ-BLU-001.pdf</div>
+    <div class="desc">The design surface. Journal-line reconstitution of profitability history for periods without an active Operating Concern, aligned to the current master-data model.</div>
+    <a class="download" href="https://raw.githubusercontent.com/EVEglyphDesign/epiq-revenue-leakage/main/blueprints/EVEglyphDesign_Datasphere_History_Reconstitution_Blueprint_EGD-EPQ-BLU-001.pdf" target="_blank" rel="noopener">Open blueprint PDF →</a>
+  </div>
+
+  <h2>Companion documents</h2>
+  <ul>
+    <li>
+      <div class="name">Sovereign Semantic Layer Blueprint <span class="tag">EGD-EPQ-BLU-001</span></div>
+      <div class="role">Sibling blueprint — the semantic-layer spine that carries the reconstituted history.</div>
+      <a href="https://raw.githubusercontent.com/EVEglyphDesign/epiq-revenue-leakage/main/blueprints/EVEglyphDesign_Datasphere_Sovereign_Semantic_Layer_Blueprint_EGD-EPQ-BLU-001.pdf" target="_blank" rel="noopener">Open PDF →</a>
+    </li>
+    <li>
+      <div class="name">Sovereign Semantic Layer Tech Spec <span class="tag">EGD-EPQ-SPC-001</span></div>
+      <div class="role">Implementation-side sibling: sizing, testing, migration, release controls.</div>
+      <a href="https://raw.githubusercontent.com/EVEglyphDesign/epiq-revenue-leakage/main/spec/EVEglyphDesign_Datasphere_Sovereign_Semantic_Layer_Techspec_EGD-EPQ-SPC-001.pdf" target="_blank" rel="noopener">Open PDF →</a>
+    </li>
+    <li>
+      <div class="name">Sovereign Capital Twin</div>
+      <div class="role">EVE Datasphere Sovereign reference model — ACDOCA-as-spine architecture the blueprint sits on.</div>
+      <a href="https://raw.githubusercontent.com/EVEglyphDesign/eve-datasphere-sovereign/main/docs/EVEglyphDesign_Sovereign_Capital_Twin.pdf" target="_blank" rel="noopener">Open PDF →</a>
+    </li>
+  </ul>
+
+  <h2>Repositories · if they want to dig in</h2>
+  <ul>
+    <li>
+      <div class="name">eve-datasphere-sovereign</div>
+      <div class="role">Public reference model · ACDOCA schema, doctrine, replication methodology.</div>
+      <a href="https://github.com/EVEglyphDesign/eve-datasphere-sovereign" target="_blank" rel="noopener">github.com/EVEglyphDesign/eve-datasphere-sovereign</a>
+    </li>
+    <li>
+      <div class="name">epiq-revenue-leakage</div>
+      <div class="role">Model canon and blueprint home for the reconstitution work.</div>
+      <a href="https://github.com/EVEglyphDesign/epiq-revenue-leakage" target="_blank" rel="noopener">github.com/EVEglyphDesign/epiq-revenue-leakage</a>
+    </li>
+  </ul>
+
+  <h2>FICO recipients</h2>
   <ul>
     <li>
       <div class="name">Sean Baseman</div>
@@ -107,10 +214,6 @@
       <div class="role">VP, Platform Product Strategy &amp; Management</div>
       <a href="https://www.linkedin.com/in/seannaismith" target="_blank" rel="noopener">linkedin.com/in/seannaismith</a>
     </li>
-  </ul>
-
-  <h2>Second ring</h2>
-  <ul>
     <li>
       <div class="name">Nikhil Behl <span class="tag">search</span></div>
       <div class="role">EVP / President, Software</div>
@@ -135,22 +238,6 @@
       <div class="name">Sheena Larson <span class="tag">search</span></div>
       <div class="role">Inside-connector surface</div>
       <a href="https://www.linkedin.com/search/results/people/?keywords=Sheena%20Larson%20FICO" target="_blank" rel="noopener">LinkedIn people search →</a>
-    </li>
-  </ul>
-
-  <h2>Your Datasphere surfaces</h2>
-  <ul>
-    <li>
-      <div class="name">EVE Datasphere Sovereign — blueprint repo</div>
-      <a href="https://github.com/EVEglyphDesign/eve-datasphere-sovereign" target="_blank" rel="noopener">github.com/EVEglyphDesign/eve-datasphere-sovereign</a>
-    </li>
-    <li>
-      <div class="name">Epiq Revenue Leakage — model canon repo</div>
-      <a href="https://github.com/EVEglyphDesign/epiq-revenue-leakage" target="_blank" rel="noopener">github.com/EVEglyphDesign/epiq-revenue-leakage</a>
-    </li>
-    <li>
-      <div class="name">Epiq Revenue Leakage — Pages site</div>
-      <a href="https://eveglyphdesign.github.io/epiq-revenue-leakage/" target="_blank" rel="noopener">eveglyphdesign.github.io/epiq-revenue-leakage</a>
     </li>
   </ul>
 
